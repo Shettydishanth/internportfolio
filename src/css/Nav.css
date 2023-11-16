@@ -1,0 +1,63 @@
+.navbar {
+   
+  position: sticky;
+  top: 0;
+  
+  
+  background-color: rgb(125, 106, 127);
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+
+  background-color: #fab5b5;
+  color: black;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+
+@media screen and (min-width: 600px) {
+  .btn {
+      display: none;
+  }
+}
+
+.btn{
+  float: right;
+  width: 80px;
+  height: 40px;
+  background: rgb(220, 113, 220);
+  border-radius: 10px;
+}
+@media screen and (max-width: 600px) {
+  .navbar a{
+      display: none;
+  }
+}
+.navb a{
+  
+  display: flex;
+  flex-direction: column;
+  text-align: right   ;
+  color: white;
+  background:rgb(125, 106, 127);
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+.closebtn{
+  background:rgb(125, 106, 127);
+  
+}

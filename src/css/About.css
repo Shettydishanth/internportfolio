@@ -1,0 +1,23 @@
+.name{
+   
+    font-family: cursive;
+    color: rgb(116, 121, 51);
+    padding-top: 200px;
+  }
+  
+ 
+  img{
+    align-items: center;
+    width: 500px;
+    height: 500px;
+  }
+  .cless{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+  }
+  .minion{
+    padding-top: 30px;
+  }
+  
+  
