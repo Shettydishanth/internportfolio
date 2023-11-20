@@ -1,0 +1,26 @@
+.project1{
+    width: 400px;
+    height: 400px;
+    background-color:white;
+    border-color: black;
+    border-radius: 20px;
+    margin-left: 300px;
+}
+.prjct{
+    text-align: center;
+}
+.project2{
+    width: 400px;
+    height: 400px;
+    background-color:white;
+    border-color: rgb(35, 12, 12);
+    border-radius: 20px;
+    margin-left: 800px;
+    
+}
+.prjctmain{
+    display: flex;
+    flex-direction: column;
+    
+
+}

@@ -1,0 +1,30 @@
+.footer {
+    margin-top: 70px;
+      background-color: rgb(242, 235, 235);
+      color: #0d0000;
+      text-align: center;
+      padding: 20px;
+      box-shadow:  0px -5px 55px rgb(49, 49, 70);
+      bottom: 0;
+      width: 97%;
+    }
+  
+    .footer p {
+      margin: 5px 0;
+    }
+  
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .logo1{
+        width: 30px;
+        height: 30px;
+        padding-right: 20px;
+    }
+   .logo0{
+    padding-right: 20px;
+     width: 30px;
+     height: 30px;
+ 
+   }

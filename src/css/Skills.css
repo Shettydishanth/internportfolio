@@ -1,0 +1,65 @@
+.skills {
+  font-family: cursive;
+  text-align: center;
+  background: rgb(240, 237, 237);
+  font-size: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 600px;
+  margin-right: 600px;
+  border-radius: 20px;
+}
+.lang {
+  font-family: Cursive;
+  background-color: #d4bebe;
+  border-radius: 20px;
+  width: 430px;
+  height: 350px;
+  box-shadow: 0px 0px 10px rgb(239, 238, 244);
+  text-align: center;
+}
+.backend {
+  font-family: Cursive;
+  background-color: #d4bebe;
+  border-radius: 20px;
+  width: 430px;
+  height: 350px;
+  
+  box-shadow: 0px 0px 10px rgb(239, 238, 244);
+  text-align: center;
+}
+.frontend {
+  font-family: Cursive;
+  background-color: #d4bebe;
+  border-radius: 20px;
+  width: 430px;
+  height: 350px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px rgb(239, 238, 244);
+  text-align: center;
+ 
+}
+.database {
+  font-family: Cursive;
+  background-color: #d4bebe;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px rgb(239, 238, 244);
+  text-align: center;
+ width: 430px;
+ height: 350px;
+ margin-top: 20px;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+.second{
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+
+}

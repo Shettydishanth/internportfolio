@@ -1,25 +1,25 @@
 .navbar {
-   
   position: sticky;
   top: 0;
-  
-  
-  background-color: rgb(125, 106, 127);
+  width: 100%;
+  background-color: rgb(222, 215, 222);
   overflow: hidden;
+  font-family: cursive;
+ 
 }
 
 .navbar a {
   float: left;
-  display: block;
-  color: white;
+  display: flex;
+  color:#5c4517;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  text-align: center;
 }
 
 .navbar a:hover {
-
-  background-color: #fab5b5;
+  background-color: #f7f2f2;
   color: black;
 }
 
@@ -27,6 +27,10 @@
   display: none;
 }
 
+.navb a:hover{
+  background-color:  #f7f2f2;
+  color:black;
+}
 
 @media screen and (min-width: 600px) {
   .btn {
@@ -36,10 +40,10 @@
 
 .btn{
   float: right;
-  width: 80px;
+  width: 60px;
   height: 40px;
-  background: rgb(220, 113, 220);
-  border-radius: 10px;
+  background: rgb(47, 164, 228);
+  border-radius: 20px;
 }
 @media screen and (max-width: 600px) {
   .navbar a{
@@ -51,13 +55,20 @@
   display: flex;
   flex-direction: column;
   text-align: right   ;
-  color: white;
-  background:rgb(125, 106, 127);
-  padding: 14px 16px;
+  color: rgb(255, 255, 255);
+  background: rgb(224, 80, 234);
+  padding: 14px;
   text-decoration: none;
+  font-family: cursive;
+ 
+  
   
 }
+.navb{
+  width: 100%;
+}
 .closebtn{
-  background:rgb(125, 106, 127);
+  background: rgb(47, 164, 228);
+  width: 100%;
   
 }
