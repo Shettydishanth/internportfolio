@@ -11,7 +11,7 @@
 .navbar a {
   float: left;
   display: flex;
-  color:#5c4517;
+
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -42,7 +42,7 @@
   float: right;
   width: 60px;
   height: 40px;
-  background: rgb(47, 164, 228);
+  background: rgb(205, 226, 238);
   border-radius: 20px;
 }
 @media screen and (max-width: 600px) {
@@ -56,7 +56,7 @@
   flex-direction: column;
   text-align: right   ;
   color: rgb(255, 255, 255);
-  background: rgb(224, 80, 234);
+  background: rgb(227, 207, 228);
   padding: 14px;
   text-decoration: none;
   font-family: cursive;
@@ -68,7 +68,7 @@
   width: 100%;
 }
 .closebtn{
-  background: rgb(47, 164, 228);
+  background: rgb(193, 226, 244);
   width: 100%;
   
 }

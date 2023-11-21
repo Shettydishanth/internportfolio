@@ -26,9 +26,7 @@ console.log(form.current );
   };
     return (
         <>
-            <div>
-                <h1>CONTACT</h1>
-            </div>
+          
             <div className="container">
                 <h1>Contact Me</h1>
                 <form ref={form} onSubmit={sendEmail}>
