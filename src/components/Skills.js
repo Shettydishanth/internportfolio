@@ -3,7 +3,8 @@ function Skills() {
   return (
     <>
     <div className="skills">
-      <span>SKILLS</span>
+      <h1>SKILLS</h1>
+     
    
     </div>
     

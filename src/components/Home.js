@@ -5,6 +5,7 @@ import Skills from "./Skills";
 import Project from "./Project";
 import Contact from "./Contact";
 import Footer from "./Footer";
+
 function Home(){
     return (
         <>

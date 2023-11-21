@@ -2,9 +2,13 @@
     width: 400px;
     height: 400px;
     background-color:white;
-    border-color: black;
+    border-color: rgb(216, 199, 199);
     border-radius: 20px;
     margin-left: 300px;
+    border-radius: 38px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  13px 13px 26px #747474,
+                 -13px -13px 26px #ffffff;
 }
 .prjct{
     text-align: center;
@@ -16,6 +20,10 @@
     border-color: rgb(35, 12, 12);
     border-radius: 20px;
     margin-left: 800px;
+    border-radius: 38px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  13px 13px 26px #747474,
+                 -13px -13px 26px #ffffff;
     
 }
 .prjctmain{

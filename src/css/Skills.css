@@ -1,13 +1,6 @@
 .skills {
-  font-family: cursive;
   text-align: center;
-  background: rgb(240, 237, 237);
-  font-size: 50px;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-left: 600px;
-  margin-right: 600px;
-  border-radius: 20px;
+    font-family: cursive;
 }
 .lang {
   font-family: Cursive;
@@ -15,8 +8,11 @@
   border-radius: 20px;
   width: 430px;
   height: 350px;
-  box-shadow: 0px 0px 10px rgb(239, 238, 244);
   text-align: center;
+  border-radius: 38px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  13px 13px 26px #747474,
+               -13px -13px 26px #ffffff;
 }
 .backend {
   font-family: Cursive;
@@ -24,9 +20,12 @@
   border-radius: 20px;
   width: 430px;
   height: 350px;
-  
-  box-shadow: 0px 0px 10px rgb(239, 238, 244);
   text-align: center;
+  border-radius: 38px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  13px 13px 26px #747474,
+               -13px -13px 26px #ffffff;
+  
 }
 .frontend {
   font-family: Cursive;
@@ -34,10 +33,14 @@
   border-radius: 20px;
   width: 430px;
   height: 350px;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 20px;
-  box-shadow: 0px 0px 10px rgb(239, 238, 244);
+  
   text-align: center;
+  border-radius: 38px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  13px 13px 26px #747474,
+               -13px -13px 26px #ffffff;
  
 }
 .database {
@@ -45,11 +48,16 @@
   background-color: #d4bebe;
   border-radius: 20px;
   margin-bottom: 20px;
-  box-shadow: 0px 0px 10px rgb(239, 238, 244);
+ 
   text-align: center;
  width: 430px;
  height: 350px;
- margin-top: 20px;
+ margin-top: 40px;
+ background: linear-gradient(145deg, #f0f0f0, #cacaca);
+ box-shadow:  13px 13px 26px #747474,
+              -13px -13px 26px #ffffff;
+
+ 
 }
 
 .first {
