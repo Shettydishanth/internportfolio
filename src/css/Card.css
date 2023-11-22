@@ -1,0 +1,21 @@
+h2{
+    color: blue;
+}
+.card{
+    display:flex;
+    font-family: Cursive;
+    background-color: #d4bebe;
+    border-radius: 20px;
+    width: 430px;
+    height: 350px;
+    text-align: center;
+    border-radius: 38px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  13px 13px 26px #747474,
+                 -13px -13px 26px #ffffff;
+}
+.hov:hover{
+    transform: scale(1.1);
+    transition: 1s;
+  }
+  
