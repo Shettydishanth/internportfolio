@@ -15,7 +15,8 @@ function Skills() {
       id: 1,
       h: "BACKEND DEVELOPMENT",
       e:"NODE JS",
-      f:"EXPRESS JS"
+      f:"EXPRESS JS",
+      w:"API"
     },
    
 
@@ -32,7 +33,8 @@ function Skills() {
       id: 3,
       h: "DATABASE",
       x:"MONGO DB",
-      y:"SQL"
+      y:"SQL",
+      z:"POSTGRES SQL"
     }
   ]
   return (

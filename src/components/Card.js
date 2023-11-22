@@ -19,6 +19,8 @@ function Card({Skills}){
             <h4>{Skills.o}</h4>
             <h4>{Skills.x}</h4>
             <h4>{Skills.y}</h4>
+            <h4>{Skills.z}</h4>
+            <h4>{Skills.w}</h4>
 
             </div>
         
