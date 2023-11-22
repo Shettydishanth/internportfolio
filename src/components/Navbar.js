@@ -27,20 +27,20 @@ function Navbar() {
        
 
         <button className="btn" onClick={() => hamburger(true)}>
-          <p> &#9776;</p>
+          <p className="navp"> &#9776;</p>
         </button>
       </div>
 
       {mobileNavBar ? (
         <div className="navb" id="myNavbar">
           <div className="closebtn" onClick={() => hamburger(false)}>
-            <button>X</button>
+            <button className="xbtn"> X</button>
           </div>
-          <Link to="/">HOME</Link>
-          <Link to="/about"> ABOUT</Link>
-          <Link to="/skills"> SKILLS</Link>
-          <Link to="/project"> PROJECT</Link>
-          <Link to="/contact"> CONTACT</Link>
+          <Link to="/" ><p className="navt">HOME</p></Link>
+          <Link to="/about" ><p className="navt"> ABOUT</p></Link>
+          <Link to="/skills" ><p className="navt">SKILLS</p></Link>
+          <Link to="/project" ><p className="navt">PROJECT</p> </Link>
+          <Link to="/contact"><p className="navt">CONTACT</p> </Link>
         </div>
       ) : (
         " "

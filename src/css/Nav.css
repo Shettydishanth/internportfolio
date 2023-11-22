@@ -41,8 +41,8 @@
 .btn{
   float: right;
   width: 60px;
-  height: 40px;
-  background: rgb(205, 226, 238);
+  height: 60px;
+  background: rgb(212, 218, 222);
   border-radius: 20px;
 }
 @media screen and (max-width: 600px) {
@@ -71,4 +71,14 @@
   background: rgb(193, 226, 244);
   width: 100%;
   
+}
+.navp{
+  color: black;
+}
+.navt{
+  color: black;
+}
+.xbtn{
+  background: aqua;
+  color: black;
 }

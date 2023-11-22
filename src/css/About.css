@@ -20,8 +20,12 @@ body{
     gap: 100px;
     justify-content: center;
   }
-  .minion{
+  .minion img{
     padding-top: 30px;
+    transition: transform 0.3s ease;
+  }
+  .minion img:hover{
+    transform: translatey(-50px);
   }
   @media screen and (max-width: 600px) {
     .cless{

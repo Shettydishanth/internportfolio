@@ -5,7 +5,7 @@ function About() {
     <>
       <div class="cless">
         <div class="name" id="name">
-          <h1>Hii,WELCOME TO MY PAGE</h1>
+          <h1 className='page'>Hii,WELCOME TO MY PAGE</h1>
           <h3>YOU CAN CHECK OUT MY SOME WORK HERE</h3>
         </div>
         <div class="minion">

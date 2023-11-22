@@ -1,10 +1,10 @@
 .footer {
     margin-top: 70px;
-      background-color: rgb(242, 235, 235);
+      background-color: rgb(247, 241, 241);
       color: #0d0000;
       text-align: center;
       padding: 20px;
-      box-shadow:  0px -5px 55px rgb(49, 49, 70);
+      box-shadow:  0px -5px 55px rgb(95, 95, 111);
       bottom: 0;
       width: 97%;
     }
@@ -28,3 +28,8 @@
      height: 30px;
  
    }
+   @media (max-width:600px){
+    .footer{
+      width: 92%;
+    }
+}

@@ -4,7 +4,7 @@ function Myself(){
     return(
         <>
         <div  className="aboutme"> 
-            <h1>ABOUT ME</h1>
+            <h1 className='abt'>ABOUT ME</h1>
         </div>
         <div className="me">
         <img src={me} alt='me'></img>

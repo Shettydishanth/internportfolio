@@ -8,8 +8,6 @@
   margin-left: 400px;
   margin-right: 400px;
   
-
-  text-align: center;
   border-radius: 38px;
   background: linear-gradient(145deg, #f0f0f0, #cacaca);
   box-shadow:  13px 13px 26px #747474,
@@ -19,8 +17,21 @@
 .aboutme{
     text-align: center;
     font-family: cursive;
+    
 }
 .me{
     display: flex;
     justify-content: center;
+
+}
+.abt{
+    color: rgb(86, 86, 2);
+}
+@media (max-width:600px){
+    .side{
+        
+  margin-left: 50px;
+  margin-right: 20px;
+  
+    }
 }

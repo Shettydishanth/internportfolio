@@ -11,9 +11,9 @@ function Home(){
         <>
         
         <Myself/>
-        <About/>
+        { <About/> }
         <Skills/>
-        <Project/>
+        { <Project/> }
         <Contact/>
         <Footer/>
         </>
