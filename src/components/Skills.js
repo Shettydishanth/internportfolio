@@ -14,17 +14,27 @@ function Skills() {
     {
       id: 1,
       h: "BACKEND DEVELOPMENT",
+      e:"NODE JS",
+      f:"EXPRESS JS"
     },
+   
+
+  ];
+  const skilla =[
     {
       id: 2,
-      h: "Frontend Development",
+      h: "FRONTEND DEVELOPMENT",
+      m:"ANGULAR JS",
+      n:"VUE JS",
+      o:"REACT JS",
     },
     {
       id: 3,
       h: "DATABASE",
+      x:"MONGO DB",
+      y:"SQL"
     }
-
-  ];
+  ]
   return (
     <>
 
@@ -33,16 +43,25 @@ function Skills() {
         <h1>SKILLS</h1>
        
       </div>
-      <div className="card hov">
+      <div className="first">
         {
         skill.map((item)=>(
           <Card Skills={item}/>
         ))
       }
+      
+      </div>
+      <div className="first">
+        {
+        skilla.map((item)=>(
+          <Card Skills={item}/>
+        ))
+      }
+      
       </div>
     
 
-      <div className="first">
+      {/* <div className="first">
         <div className="lang hov">
           <h2>Languages</h2>
           <h4>C</h4>
@@ -70,7 +89,7 @@ function Skills() {
           <h4>SQL</h4>
           <h4>POSTGRE SQL</h4>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
