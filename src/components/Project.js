@@ -11,6 +11,7 @@ function Project() {
           
           <img className="reactprjct" src="https://cdn.dribbble.com/users/1124806/screenshots/4871258/ezgif.com-optimize.gif" alt="" />
         </div>
+       
         <div className="project2">
           <h1>MY PROJECT 2</h1>
           <img className="reactprjct" src="https://cdn.dribbble.com/users/1124806/screenshots/4871258/ezgif.com-optimize.gif" alt="" />
